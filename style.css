@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(-90deg,  rgb(30, 30, 30), rgb(25, 25, 25));
+    background-size: 400%, 400%;
+    animation: gradient 15s ease infinite;
+    font-family: monospace;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.q {
+    font-size: 200%;
+    text-align: center;
+    color: rgb(204, 0, 0);
+    text-shadow: 0 0 3px rgb(204, 0, 0);
+}
+
+.run-in { 
+    display:inline; 
+}
+
+.material-icons.md-48 { 
+    font-size: 120%;
+}
+
+footer {
+    color: rgb(204, 0, 0);
+    position:fixed;
+    bottom:0;
+    margin: 0; 
+    padding: 8px 16px;
+}
+
+.s {
+    color: rgb(204, 0, 0);
+    text-decoration: none;
+}
+
+.o {
+    color: rgb(204, 0, 0);
+    font-size: 150%;
+    text-align: center;
+}
+
+.o1 {
+    color: rgb(204, 0, 0);
+    font-size: 150%;
+    text-align: center;
+}
+
+.g {
+    position: absolute;
+    left: 300px;
+    top: 350px;
+}
+
+.h {
+    position: absolute;
+    left: 400px;
+}
+
+.h1 {
+    position: absolute;
+    left: 400px;
+    height: 280px;
+    width: auto;
+}
