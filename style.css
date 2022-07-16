@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:500,700https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(-90deg, rgb(40,40,40), rgb(15,15,15));
+    background-size: 400% 400%;
+    font-family: Nunito;
+}
+
+.title {
+    font-size: 200%;
+    color: rgb(62, 255, 149);
+    text-shadow: 0 0 3px rgb(62, 255, 149);
+}
+
+#inner {
+    grid-row: 2;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    color:rgb(62, 255, 149);
+}
+
+#home-container {
+    display: grid;
+    grid-template-columns: 10px 1fr 10px; /* for left and right sections */
+    grid-template-rows: 10px 1fr 1fr 10px;
+    grid-gap: 20px;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(62, 255, 149);
+}
+
+a:hover {
+    text-shadow: 0 0 3px rgb(62, 255, 149);
+}
+
+#footer {
+    grid-row: 10;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    color: rgb(62, 255, 149);
+    font-size: 50%;
+}
